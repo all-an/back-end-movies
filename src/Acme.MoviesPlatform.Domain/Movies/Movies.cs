@@ -10,7 +10,7 @@ namespace Acme.MoviesPlatform.Filmes
     class Movie : AuditedAggregateRoot<Guid>
     {
         public string Name { get; set; }
-        
+
         public MovieType Type { get; set; }
 
         public DateTime PublishDate { get; }
