@@ -1,0 +1,17 @@
+C:\Users\Public\back-end-movies\MoviesPlatform\Plugins.DataStore.InMemory\bin\Debug\net5.0\Plugins.DataStore.InMemory.deps.json
+C:\Users\Public\back-end-movies\MoviesPlatform\Plugins.DataStore.InMemory\bin\Debug\net5.0\Plugins.DataStore.InMemory.dll
+C:\Users\Public\back-end-movies\MoviesPlatform\Plugins.DataStore.InMemory\bin\Debug\net5.0\ref\Plugins.DataStore.InMemory.dll
+C:\Users\Public\back-end-movies\MoviesPlatform\Plugins.DataStore.InMemory\bin\Debug\net5.0\Plugins.DataStore.InMemory.pdb
+C:\Users\Public\back-end-movies\MoviesPlatform\Plugins.DataStore.InMemory\bin\Debug\net5.0\CoreActions.dll
+C:\Users\Public\back-end-movies\MoviesPlatform\Plugins.DataStore.InMemory\bin\Debug\net5.0\UseCases.dll
+C:\Users\Public\back-end-movies\MoviesPlatform\Plugins.DataStore.InMemory\bin\Debug\net5.0\UseCases.pdb
+C:\Users\Public\back-end-movies\MoviesPlatform\Plugins.DataStore.InMemory\bin\Debug\net5.0\CoreActions.pdb
+C:\Users\Public\back-end-movies\MoviesPlatform\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.csproj.AssemblyReference.cache
+C:\Users\Public\back-end-movies\MoviesPlatform\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\back-end-movies\MoviesPlatform\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.AssemblyInfoInputs.cache
+C:\Users\Public\back-end-movies\MoviesPlatform\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.AssemblyInfo.cs
+C:\Users\Public\back-end-movies\MoviesPlatform\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.csproj.CoreCompileInputs.cache
+C:\Users\Public\back-end-movies\MoviesPlatform\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.csproj.CopyComplete
+C:\Users\Public\back-end-movies\MoviesPlatform\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.dll
+C:\Users\Public\back-end-movies\MoviesPlatform\Plugins.DataStore.InMemory\obj\Debug\net5.0\ref\Plugins.DataStore.InMemory.dll
+C:\Users\Public\back-end-movies\MoviesPlatform\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.pdb

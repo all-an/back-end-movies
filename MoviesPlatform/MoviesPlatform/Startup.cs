@@ -6,10 +6,13 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MoviesPlatform.Data;
+using Plugins.DataStore.InMemory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using UseCases;
+using UseCases.DataStorePluginInterfaces;
 
 namespace MoviesPlatform
 {
@@ -29,6 +32,14 @@ namespace MoviesPlatform
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+
+            //Dependency Injection for In-Memory data store
+            services.AddScoped<ICategoryRepository, CategoryInMemoryRepository>();
+
+            //Dependency Injection for UseCases and Repositories
+            services.AddTransient<IViewCategory, ViewCategory>();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

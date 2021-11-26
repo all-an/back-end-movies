@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "CoreActions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CoreActions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoreActions.dll": {}
+        }
+      },
+      "Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "UseCases": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CoreActions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UseCases.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CoreActions/1.0.0": {
+      "type": "project",
+      "path": "../CoreActions/CoreActions.csproj",
+      "msbuildProject": "../CoreActions/CoreActions.csproj"
+    },
+    "Plugins.DataStore.InMemory/1.0.0": {
+      "type": "project",
+      "path": "../Plugins.DataStore.InMemory/Plugins.DataStore.InMemory.csproj",
+      "msbuildProject": "../Plugins.DataStore.InMemory/Plugins.DataStore.InMemory.csproj"
+    },
+    "UseCases/1.0.0": {
+      "type": "project",
+      "path": "../UseCases/UseCases.csproj",
+      "msbuildProject": "../UseCases/UseCases.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "CoreActions >= 1.0.0",
+      "Plugins.DataStore.InMemory >= 1.0.0",
+      "UseCases >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\all-a\\.nuget\\packages\\": {}
@@ -33,7 +90,17 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\CoreActions\\CoreActions.csproj": {
+              "projectPath": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\CoreActions\\CoreActions.csproj"
+            },
+            "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj": {
+              "projectPath": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj"
+            },
+            "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\UseCases\\UseCases.csproj": {
+              "projectPath": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\UseCases\\UseCases.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

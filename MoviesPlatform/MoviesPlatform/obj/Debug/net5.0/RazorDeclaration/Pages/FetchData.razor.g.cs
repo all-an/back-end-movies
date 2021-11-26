@@ -83,6 +83,13 @@ using MoviesPlatform.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 12 "C:\Users\Public\back-end-movies\MoviesPlatform\MoviesPlatform\_Imports.razor"
+using CoreActions;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "C:\Users\Public\back-end-movies\MoviesPlatform\MoviesPlatform\Pages\FetchData.razor"
 using MoviesPlatform.Data;
 

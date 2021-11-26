@@ -4,14 +4,14 @@
     "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\MoviesPlatform\\MoviesPlatform.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\MoviesPlatform\\MoviesPlatform.csproj": {
+    "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\CoreActions\\CoreActions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\MoviesPlatform\\MoviesPlatform.csproj",
-        "projectName": "MoviesPlatform",
-        "projectPath": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\MoviesPlatform\\MoviesPlatform.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\CoreActions\\CoreActions.csproj",
+        "projectName": "CoreActions",
+        "projectPath": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\CoreActions\\CoreActions.csproj",
         "packagesPath": "C:\\Users\\all-a\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\MoviesPlatform\\obj\\",
+        "outputPath": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\CoreActions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\all-a\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,9 +50,189 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\MoviesPlatform\\MoviesPlatform.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\MoviesPlatform\\MoviesPlatform.csproj",
+        "projectName": "MoviesPlatform",
+        "projectPath": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\MoviesPlatform\\MoviesPlatform.csproj",
+        "packagesPath": "C:\\Users\\all-a\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\MoviesPlatform\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\all-a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\CoreActions\\CoreActions.csproj": {
+                "projectPath": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\CoreActions\\CoreActions.csproj"
+              },
+              "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj": {
+                "projectPath": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj"
+              },
+              "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\UseCases\\UseCases.csproj": {
+                "projectPath": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\UseCases\\UseCases.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj",
+        "projectName": "Plugins.DataStore.InMemory",
+        "projectPath": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj",
+        "packagesPath": "C:\\Users\\all-a\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\Plugins.DataStore.InMemory\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\all-a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\UseCases\\UseCases.csproj": {
+                "projectPath": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\UseCases\\UseCases.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\UseCases\\UseCases.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\UseCases\\UseCases.csproj",
+        "projectName": "UseCases",
+        "projectPath": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\UseCases\\UseCases.csproj",
+        "packagesPath": "C:\\Users\\all-a\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\UseCases\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\all-a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\CoreActions\\CoreActions.csproj": {
+                "projectPath": "C:\\Users\\Public\\back-end-movies\\MoviesPlatform\\CoreActions\\CoreActions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

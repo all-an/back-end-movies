@@ -1,0 +1,27 @@
+﻿<h3>Add Category</h3>
+
+@if (category != null)
+{
+    <EditForm Model="category" class="form-inline" OnInvalidSubmit="OnValidSubmit">
+        <DataAnnotationsValidator></DataAnnotationsValidator>
+        <ValidationSummary></ValidationSummary>
+    </EditForm>
+} 
+
+@code {
+
+    private Category category;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        category = new Category();
+
+    }
+
+    private void OnValidSubmit()
+    {
+
+    }
+}

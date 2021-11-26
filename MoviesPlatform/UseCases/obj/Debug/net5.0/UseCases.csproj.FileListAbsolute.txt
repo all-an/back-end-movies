@@ -1,0 +1,15 @@
+C:\Users\Public\back-end-movies\MoviesPlatform\UseCases\bin\Debug\net5.0\UseCases.deps.json
+C:\Users\Public\back-end-movies\MoviesPlatform\UseCases\bin\Debug\net5.0\UseCases.dll
+C:\Users\Public\back-end-movies\MoviesPlatform\UseCases\bin\Debug\net5.0\ref\UseCases.dll
+C:\Users\Public\back-end-movies\MoviesPlatform\UseCases\bin\Debug\net5.0\UseCases.pdb
+C:\Users\Public\back-end-movies\MoviesPlatform\UseCases\bin\Debug\net5.0\CoreActions.dll
+C:\Users\Public\back-end-movies\MoviesPlatform\UseCases\bin\Debug\net5.0\CoreActions.pdb
+C:\Users\Public\back-end-movies\MoviesPlatform\UseCases\obj\Debug\net5.0\UseCases.csproj.AssemblyReference.cache
+C:\Users\Public\back-end-movies\MoviesPlatform\UseCases\obj\Debug\net5.0\UseCases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\back-end-movies\MoviesPlatform\UseCases\obj\Debug\net5.0\UseCases.AssemblyInfoInputs.cache
+C:\Users\Public\back-end-movies\MoviesPlatform\UseCases\obj\Debug\net5.0\UseCases.AssemblyInfo.cs
+C:\Users\Public\back-end-movies\MoviesPlatform\UseCases\obj\Debug\net5.0\UseCases.csproj.CoreCompileInputs.cache
+C:\Users\Public\back-end-movies\MoviesPlatform\UseCases\obj\Debug\net5.0\UseCases.csproj.CopyComplete
+C:\Users\Public\back-end-movies\MoviesPlatform\UseCases\obj\Debug\net5.0\UseCases.dll
+C:\Users\Public\back-end-movies\MoviesPlatform\UseCases\obj\Debug\net5.0\ref\UseCases.dll
+C:\Users\Public\back-end-movies\MoviesPlatform\UseCases\obj\Debug\net5.0\UseCases.pdb

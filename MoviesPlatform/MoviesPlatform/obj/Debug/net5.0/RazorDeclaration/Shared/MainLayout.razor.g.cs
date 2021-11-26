@@ -82,6 +82,13 @@ using MoviesPlatform.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "C:\Users\Public\back-end-movies\MoviesPlatform\MoviesPlatform\_Imports.razor"
+using CoreActions;
+
+#line default
+#line hidden
+#nullable disable
     public partial class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998
