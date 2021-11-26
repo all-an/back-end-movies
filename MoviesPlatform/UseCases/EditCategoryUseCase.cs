@@ -10,14 +10,16 @@ namespace UseCases
 {
     class EditCategoryUseCase
     {
+        private readonly ICategoryRepository categoryRepository;
+
         public EditCategoryUseCase(ICategoryRepository categoryRepository)
         {
-
+            this.categoryRepository = categoryRepository;
         }
 
         public void Execute(Category category)
         {
-
+            categoryRepository.AddCategory();
         }
     }
 }
