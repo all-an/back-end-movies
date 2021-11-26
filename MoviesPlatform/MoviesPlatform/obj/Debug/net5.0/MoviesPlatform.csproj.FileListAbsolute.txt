@@ -64,3 +64,5 @@ C:\Users\Public\back-end-movies\MoviesPlatform\MoviesPlatform\obj\Debug\net5.0\M
 C:\Users\Public\back-end-movies\MoviesPlatform\MoviesPlatform\obj\Debug\net5.0\ref\MoviesPlatform.dll
 C:\Users\Public\back-end-movies\MoviesPlatform\MoviesPlatform\obj\Debug\net5.0\MoviesPlatform.pdb
 C:\Users\Public\back-end-movies\MoviesPlatform\MoviesPlatform\obj\Debug\net5.0\MoviesPlatform.genruntimeconfig.cache
+C:\Users\Public\back-end-movies\MoviesPlatform\MoviesPlatform\obj\Debug\net5.0\RazorDeclaration\Pages\AddCategory.razor.g.cs
+C:\Users\Public\back-end-movies\MoviesPlatform\MoviesPlatform\obj\Debug\net5.0\Razor\Pages\AddCategory.razor.g.cs

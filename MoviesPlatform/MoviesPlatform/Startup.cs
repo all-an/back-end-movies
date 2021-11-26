@@ -39,7 +39,7 @@ namespace MoviesPlatform
             //Dependency Injection for UseCases and Repositories
             services.AddTransient<IViewCategory, ViewCategory>();
 
-
+            services.AddTransient<IAddCategoryUseCase, AddCategoryUseCase>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

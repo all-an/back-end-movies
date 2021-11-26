@@ -12,7 +12,6 @@
         <thead>
             <tr>
                 <th>Name</th>
-                <th>Description</th>
             </tr>
         </thead>
         <tbody>
@@ -20,14 +19,13 @@
             {
                 <tr>
                     <td>@category.Name</td>
-                    <td>@category.Description</td>
                 </tr>
             }
         </tbody>
     </table>
 }
 <br/>
-<button type="button" @onclick="OnClickAddCategory">Add Category</button>
+<button type="button" @onclick="OnClickAddCategory" class="btn btn-primary">Add Category</button>
 
 
 @code {
@@ -42,7 +40,7 @@
 
     private void OnClickAddCategory()
     {
-        NavigationManager.NavigateTo("/addcategory");
+        NavigationManager.NavigateTo("/addcategory"); 
     }
 
 }
