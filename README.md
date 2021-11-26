@@ -14,17 +14,11 @@ Frameworks :
 
 ## Features
 
-- InMemory Data Storage
+- ...
 - ...
 
 
-## Methods in progress
+## Development in progress
 ```cs
-public class Category
-    {
-        public int CategoryId { get; set; }
-        [Required]
-        public string Name { get; set; }
-        public string Description { get; set; }
-    }
+###
 ```

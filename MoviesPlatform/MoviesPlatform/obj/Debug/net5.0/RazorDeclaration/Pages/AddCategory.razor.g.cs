@@ -89,6 +89,7 @@ using CoreActions;
 #line default
 #line hidden
 #nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/addcategory")]
     public partial class AddCategory : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -97,7 +98,7 @@ using CoreActions;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 11 "c:\Users\Public\back-end-movies\MoviesPlatform\MoviesPlatform\Pages\AddCategory.razor"
+#line 25 "c:\Users\Public\back-end-movies\MoviesPlatform\MoviesPlatform\Pages\AddCategory.razor"
        
 
     private Category category;
