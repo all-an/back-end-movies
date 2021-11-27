@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesPlatform", "MoviesPlatform\MoviesPlatform.csproj", "{11EA65CC-F0F5-41D6-877B-776E190C384D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesPlatform", "MoviesPlatform\MoviesPlatform.csproj", "{11EA65CC-F0F5-41D6-877B-776E190C384D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCases", "UseCases\UseCases.csproj", "{28535A73-5C4E-4420-9CDC-6A5BFAE52D4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseCases", "UseCases\UseCases.csproj", "{28535A73-5C4E-4420-9CDC-6A5BFAE52D4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreActions", "CoreActions\CoreActions.csproj", "{581F4310-3EFE-42E6-BCDB-EB323E3A9062}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreActions", "CoreActions\CoreActions.csproj", "{581F4310-3EFE-42E6-BCDB-EB323E3A9062}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins.DataStore.InMemory", "Plugins.DataStore.InMemory\Plugins.DataStore.InMemory.csproj", "{3D536824-9D41-415C-8CDC-74B399D86B67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugins.DataStore.InMemory", "Plugins.DataStore.InMemory\Plugins.DataStore.InMemory.csproj", "{3D536824-9D41-415C-8CDC-74B399D86B67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

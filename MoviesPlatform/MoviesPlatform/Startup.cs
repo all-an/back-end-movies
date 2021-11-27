@@ -40,6 +40,9 @@ namespace MoviesPlatform
             services.AddTransient<IViewCategory, ViewCategory>();
 
             services.AddTransient<IAddCategoryUseCase, AddCategoryUseCase>();
+
+            services.AddTransient<EditCategoryUseCase>();
+            services.AddTransient<IGetCategoryByIdUseCase, GetCategoryByIdUseCase>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

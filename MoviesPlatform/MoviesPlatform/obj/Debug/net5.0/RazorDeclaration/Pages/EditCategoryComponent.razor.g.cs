@@ -89,42 +89,13 @@ using CoreActions;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/categories")]
-    public partial class CategoriesComp : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class EditCategoryComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 33 "C:\Users\Public\back-end-movies\MoviesPlatform\MoviesPlatform\Pages\CategoriesComp.razor"
-       
-    private List<Category> categories;
-
-    protected override void OnInitialized()
-    {
-        base.OnInitialized();
-
-        categories = ViewCategory.Execute()?.ToList();
-    }
-
-    private void OnClickAddCategory()
-    {
-        NavigationManager.NavigateTo("/addcategory"); 
-    }
-
-    private void EditCategory(Category category)
-    {
-        NavigationManager.NavigateTo($"/editcategory/{category.CategoryId}");
-    }
-
-
-#line default
-#line hidden
-#nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private UseCases.IViewCategory ViewCategory { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
     }
 }
 #pragma warning restore 1591
